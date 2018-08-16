@@ -1,6 +1,6 @@
 {
   "name": "docz-plugin-snapshots",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A plugin for docz that creates jest snapshots for all documented component usages",
   "main": "index.js",
   "scripts": {},
@@ -23,9 +23,9 @@
     "jest-mdx-loader": "^0.1.1"
   },
   "peerDependencies": {
+    "docz": "^0.9.6",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
-    "react-test-renderer": "^16.4.2",
-    "docz": "^0.9.6"
+    "react-test-renderer": "^16.4.2"
   }
 }
